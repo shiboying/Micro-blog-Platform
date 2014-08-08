@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<!--下述语句是将struts2交给spring管理 -->
+
+<constant name="struts.objectFactory" value="spring" />
+
+<!--导入struts-default.xml文件 -->
+
+<include file="struts-default.xml"></include>
+
+<!--将action内容放在package元素下，package元素的name值与extends值可以使用默认值，如下所示 -->
+
+<package name="default" extends="struts-default">
+
+
+ <action name="loginAction" class="LoginAction">
+    <result name="fail">/success.jsp </result>
+    <result name="success">/webpages/homenew.jsp</result>
+   </action>
+  
+  <action name="registerAction" class= "RegisterAction">
+  	<result name="fail">/webpages/register.jsp</result>
+  	<result name="success">/webpages/showuserid.jsp</result>
+  </action> 
+ 
+	<action name="weiboAction" class = "WeiboAction" method="sendweibo">
+    	<result name="success">/webpages/homenew.jsp</result>
+    </action>
+    
+	<action name="AddComment" class="CommentAction" method="addComment">
+    <result name="success">/webpages/homenew.jsp</result>
+    </action>    
+    <action name="ListMyWeibo" class="WeiboAction" method="listMyWeibo">
+    <result name="success">/suc.jsp</result>
+    </action>
+    <action name="ListIdolWeibo" class="WeiboAction" method="listIdolWeibo">
+    </action>
+	<action name="AddIdol" class="FansAction" method="addIdol">
+		<result name="success">/webpages/homenew.jsp</result>
+	</action>
+	<action name="ShowFans" class="FansAction" method="showFans">
+		<result name="success">/webpages/fanslist.jsp</result>
+	</action>
+	<action name="ShowIdol" class="FansAction" method="showIdol">
+		<result name="success">/webpages/fanslist.jsp</result>
+	</action>
+	<action name="ShowCount" class="FansAction" method="showCount"></action>	
+	<action name="forwardAction_sendForwardWeibo" class ="ForwardAction" method="sendForwardWeibo">
+    <result name="success" >/webpages/homenew.jsp</result>
+    </action>	
+</package>
+<package name="json" extends="json-default">
+   	<action name="forwardAction_getShowString" class = "ForwardAction" method="getShowString">
+    <result name="success" type="json"></result>
+    </action> 
+    
+    
+      <action name="TestAction" class="TestAction" method="test">   
+   	<result name="fail">/fail.jsp</result>
+   	<result name="success" type="json"></result>
+   </action>
+   
+   <action name="ListComment" class="CommentAction" method="listComment">
+	<result name="success" type="json"></result>
+    </action>
+</package>
+</struts>    

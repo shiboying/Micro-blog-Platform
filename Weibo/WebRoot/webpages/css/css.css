@@ -1,0 +1,113 @@
+BODY {	FONT: 11px Verdana, Arial, Helvetica, sans-serif; COLOR: #333; WORD-BREAK: break-all; WORD-WRAP: break-word}
+TD {
+	FONT: 14px Verdana, Arial, Helvetica, sans-serif;
+	COLOR: #dbc1a7;
+	WORD-BREAK: break-all;
+	WORD-WRAP: break-word;
+	font-weight: bold;
+}
+TH {	FONT: 11px Verdana, Arial, Helvetica, sans-serif; COLOR: #333; WORD-BREAK: break-all; WORD-WRAP: break-word}
+DIV {	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px}
+FORM {	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px}
+IMG {	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px}
+UL {	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px}
+OL {	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px}
+LI {	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px}
+DL {	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px}
+DT {	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px}
+DD {	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px}
+H1 {	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px}
+H2 {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-TOP: 0px
+}
+H3 {	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px}
+H4 {	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px}
+H5 {	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px}
+H6 {	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px}
+.newsbox {	MARGIN-TOP: -15px}
+.topmusicbox {	MARGIN-TOP: -15px}
+.musicbox {	MARGIN-TOP: -15px}
+.friendcont {	MARGIN-TOP: -15px}
+.popcontent {	MARGIN-TOP: -15px}
+.clear {	CLEAR: both}
+A {	COLOR: #4e4e4e; TEXT-DECORATION: none}
+A:hover {	COLOR: #ff5400}
+.red {	COLOR: #ff5400}
+.hs {	COLOR: #4e4e4e}
+.hs01 {	COLOR: #8f8f8f}
+.black {	COLOR: #000}
+.white {	COLOR: #fff}
+.mh {	COLOR: #ff0084}
+.blue {	COLOR: #195add}
+.txt11 {	FONT-SIZE: 11px}
+.unline {	TEXT-DECORATION: underline}
+
+.search {	FLOAT: right; HEIGHT: 49px}
+.search .title {	FONT-WEIGHT: bold; FONT-SIZE: 10px; MARGIN: 2px 0px; COLOR: #000}
+.search .box {	BORDER-TOP: #bfbfbf 1px solid; BORDER-LEFT-WIDTH: 1px; FLOAT: left; WIDTH: 117px; PADDING-TOP: 4px; BORDER-BOTTOM: #bfbfbf 1px solid; HEIGHT: 19px; BORDER-RIGHT-WIDTH: 1px}
+.search .box INPUT {	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 11px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.search .button {	FLOAT: left}
+.search .pic {	FLOAT: left; WIDTH: 5px; HEIGHT: 25px}
+.search .pic1 {	BACKGROUND: url(../images/menu_btn.gif) -200px -100px}
+.search .pic2 {	BACKGROUND: url(../images/menu_btn.gif) -250px -100px}
+.search .pic3 {	BACKGROUND: url(../images/menu_btn.gif) -200px -50px; WIDTH: 54px; HEIGHT: 3px}
+.btnBg {	BACKGROUND-IMAGE: url(../images/menu_btn.gif); CURSOR: pointer}
+.btnSearch {	BACKGROUND-POSITION: -200px -150px; FLOAT: left; WIDTH: 46px; HEIGHT: 25px}
+.btnMessage {	BACKGROUND-POSITION: -10px -150px; WIDTH: 68px; HEIGHT: 25px}
+.btnLogin {	BACKGROUND-POSITION: -100px -150px; WIDTH: 96px; HEIGHT: 25px}
+.btnSearchF {	BACKGROUND-POSITION: -250px -150px; WIDTH: 46px; HEIGHT: 22px}
+.banner01 {	MARGIN: 0px auto 10px; WIDTH: 970px}
+
+.left {	FLOAT: left; WIDTH: 252px}
+.middle {	FLOAT: left; MARGIN-LEFT: 8px; WIDTH: 492px}
+.right {	FLOAT: right; WIDTH: 210px}
+.title H5 {	DISPLAY: inline; FONT-WEIGHT: bold; FLOAT: left; MARGIN: 7px 0px 0px 15px}
+.title SPAN {	FONT-SIZE: 11px; FLOAT: right; MARGIN: 5px 22px 0px 0px}
+H4 {	DISPLAY: inline; FONT-WEIGHT: bold; FLOAT: left; MARGIN: 6px 0px 2px 7px}
+H3 {	FLOAT: right; MARGIN: 6px 5px 2px 0px}
+.newsbox {	MARGIN-BOTTOM: 9px; WIDTH: 252px}
+.lrline {	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; HEIGHT: 1px}
+.newstitle01 {	MARGIN: 0px; HEIGHT: 4px}
+.newstitle02 {	BACKGROUND: #f7f7f7}
+.newstitle03 {	BACKGROUND: url(images/title_black.gif) no-repeat center 50%; HEIGHT: 25px}
+.newstitle04 {	BACKGROUND: url(images/title_red.gif) no-repeat center 50%; HEIGHT: 25px}
+.newsbg {	BACKGROUND: #f7f7f7}
+.newshot {	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 11px; PADDING-TOP: 11px}
+.newshot UL {	}
+.newshot LI {	MARGIN: 0px 7px 0px 4px; LINE-HEIGHT: 18px}
+.head {	FLOAT: left}
+.head IMG {	BACKGROUND: url(images/nopic.gif) center center; WIDTH: 68px; HEIGHT: 68px}
+.face {	}
+.newslist {	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px}
+.newslist UL {	}
+.newslist LI {	PADDING-RIGHT: 2px; BORDER-TOP: #e4e4e4 1px solid; PADDING-LEFT: 9px; BACKGROUND: url(images/icon_02.gif) no-repeat left center; PADDING-BOTTOM: 0px; PADDING-TOP: 6px; HEIGHT: 21px}
+.newslist IMG {	MARGIN-RIGHT: 4px}
+.newslist TABLE {	WIDTH: 100%}
+.newslist TD {	BORDER-TOP: #e4e4e4 1px solid; HEIGHT: 27px}
+.newmsic {	COLOR: #4e4e4e; PADDING-TOP: 8px}
+.broadcastbox {	MARGIN-BOTTOM: 9px}
+.broadcastcont {	BACKGROUND: #f7f7f7; PADDING-TOP: 6px; HEIGHT: 31px; TEXT-ALIGN: center}
+.broadcastcont INPUT {	BORDER-RIGHT: #cfcfcf 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #cfcfcf 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; BORDER-LEFT: #cfcfcf 1px solid; WIDTH: 330px; COLOR: #9600ff; PADDING-TOP: 2px; BORDER-BOTTOM: #cfcfcf 1px solid; HEIGHT: 19px}
+
+.friendheight {	PADDING-TOP: 6px; HEIGHT: 30px}
+.friendheight .line {	BACKGROUND-POSITION: 50% bottom; MARGIN: 8px 7px 0px 5px; VERTICAL-ALIGN: bottom; BORDER-BOTTOM: #cacaca 1px dashed}
+.inputbox {	BORDER-RIGHT: #cfcfcf 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cfcfcf 1px solid; DISPLAY: inline; PADDING-LEFT: 5px; BACKGROUND: url(images/friend_01.gif) no-repeat right center; PADDING-BOTTOM: 0px; BORDER-LEFT: #cfcfcf 1px solid; WIDTH: 18px; PADDING-TOP: 0px; BORDER-BOTTOM: #cfcfcf 1px solid; HEIGHT: 18px}
+.friendcont {	PADDING-RIGHT: 0px; DISPLAY: none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 17px; HEIGHT: 109px}
+.friendcont UL {	}
+.friendcont LI {	FLOAT: left; MARGIN: 0px 4px; WIDTH: 68px; TEXT-ALIGN: center}
+.friendcont LI DIV {	BACKGROUND: url(images/nopic.gif) center center; WIDTH: 68px; HEIGHT: 68px}
+.friendcont LI A IMG {	BORDER-RIGHT: #fff 2px solid; BORDER-TOP: #fff 2px solid; BORDER-LEFT: #fff 2px solid; WIDTH: 68px; BORDER-BOTTOM: #fff 2px solid; HEIGHT: 68px}
+.friendcont LI A:hover IMG {	BORDER-RIGHT: #ff6600 2px solid; BORDER-TOP: #ff6600 2px solid; BORDER-LEFT: #ff6600 2px solid; BORDER-BOTTOM: #ff6600 2px solid}
+.friendcont H6 {	MARGIN-TOP: 10px}
+
+#user_msg {	DISPLAY: none; WIDTH: 90px; POSITION: absolute}
+#user_msg .uleft {	FLOAT: left; BACKGROUND-IMAGE: url(../images/lineleft.gif); WIDTH: 17px; HEIGHT: 72px}
+#user_msg .uright {	BORDER-RIGHT: #ff6600 2px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ff6600 2px solid; PADDING-LEFT: 4px; FLOAT: left; PADDING-BOTTOM: 4px; BORDER-LEFT: #ff6600 2px; WIDTH: 64px; COLOR: #000; LINE-HEIGHT: 130%; PADDING-TOP: 4px; BORDER-BOTTOM: #ff6600 2px solid; HEIGHT: 60px; BACKGROUND-COLOR: #fff}
+#msg_note {	DISPLAY: none}
+#UserKey {	WIDTH: 54px}
